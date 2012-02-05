@@ -11,7 +11,7 @@
 		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-2.0.xsd
 		">
 	<bean id="objectifyManager" class="ex.objectify.spring.ObjectifyManager">
-		<property name="basePackage" value="gso.model" />
+		<property name="basePackage" value="vimiracci" />
 	</bean>
 
 	<bean id="objectifyFactory" class="ex.objectify.spring.ObjectifyFactoryBean">

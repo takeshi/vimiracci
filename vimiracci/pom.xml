@@ -228,6 +228,7 @@
 
 	</dependencies>
 	<build>
+		<outputDirectory>war/WEB-INF/classes</outputDirectory>
 		<pluginManagement>
 			<plugins>
 				<plugin>
