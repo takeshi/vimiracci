@@ -13,6 +13,12 @@
 		<objectify.version>3.1</objectify.version>
 	</properties>
 	<repositories>
+
+		<repository>
+			<id>mandubian-mvn</id>
+			<url>http://mandubian-mvn.googlecode.com/svn/trunk/mandubian-mvn/repository</url>
+		</repository>
+
 		<repository>
 			<id>spring-maven-release</id>
 			<name>Spring Maven Release Repository</name>
@@ -224,6 +230,34 @@
 			<groupId>xalan</groupId>
 			<artifactId>xalan</artifactId>
 			<version>2.7.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.gdata</groupId>
+			<artifactId>gdata-photos-2.0</artifactId>
+			<version>1.41.5</version>
+			<exclusions>
+				<!-- deprecated; use guava instead -->
+				<!--exclusion> <artifactId>google-collections</artifactId> <groupId>com.google.collections</groupId> 
+					</exclusion -->
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gdata</groupId>
+			<artifactId>gdata-photos-meta-2.0</artifactId>
+			<version>1.41.1</version>
 		</dependency>
 
 	</dependencies>

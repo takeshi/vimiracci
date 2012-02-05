@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project basedir="." default="compile">
+
+
+	<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="./dev-lib/compiler.jar" />
+
+	<property name="cal.deps" value="${basedir}/js/closure/bin/calcdeps.py" />
+
+	<property name="target.js" value="s3/app.js" />
+
+	<target name="compile" depends="create-deps.js">
+		<mkdir dir="target" />
+
+		<exec dir="${basedir}/js" executable="python">
+			<arg value="${cal.deps}" />
+
+			<arg value="-i" />
+			<arg value="${target.js}" />
+
+			<arg value="-c" />
+			<arg value="../dev-lib/compiler.jar" />
+
+			<arg value="--externs_lib" />
+			<arg value="lib" />
+
+
+			<arg value="-o" />
+			<arg value="compiled" />
+
+			<arg value="--compiler_flags" />
+
+			<arg value="--compilation_level=SIMPLE_OPTIMIZATIONS" />
+			<!--arg value="compilation_level=ADVANCED_OPTIMIZATIONS" /-->
+
+			<arg value="--compiler_flags" />
+			<arg value="--warning_level=QUIET" />
+
+			<arg value="--output_file" />
+			<arg value="../target/compiled.js" />
+
+		</exec>
+	</target>
+
+	<target name="create-deps.js">
+
+		<exec dir="${basedir}/js" executable="python" output="${basedir}/js/s3/deps.js">
+			<arg value="${cal.deps}" />
+			<arg value="-i" />
+			<arg value="${target.js}" />
+			<arg value="-o" />
+			<arg value="deps" />
+		</exec>
+	</target>
+
+</project>

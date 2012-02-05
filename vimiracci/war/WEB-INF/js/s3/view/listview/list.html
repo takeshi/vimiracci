@@ -1,0 +1,27 @@
+<div class="s3listview ui-widget">
+	<div class="s3table ui-widget-content">
+		<div>
+			<input value="{{=Prefix}}" style="width: 98%; margin: 0px;" readonly>
+		</div>
+		<table cellpadding="0" cellspacing="0" border="0" class="display"
+			id="example">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Size</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each ContentsList}} {{#if !folder }}
+
+				<tr>
+					<td><a style="text-decoration: none"
+						href="javascript:(function(){}());" class="fileItem"
+						key="{{=Key}}">{{=name()}}</a></td>
+					<td>{{=Size}}</td>
+				</tr>
+				{{/if}} {{/each}}
+			</tbody>
+		</table>
+	</div>
+</div>

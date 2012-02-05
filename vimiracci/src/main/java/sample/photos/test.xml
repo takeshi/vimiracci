@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<entry xmlns='http://www.w3.org/2005/Atom' xmlns:exif='http://schemas.google.com/photos/exif/2007'
+	xmlns:gphoto='http://schemas.google.com/photos/2007' xmlns:media='http://search.yahoo.com/mrss/'>
+	<id>https://picasaweb.google.com/data/entry/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210</id>
+	<published>2012-02-05T07:37:14.000Z</published>
+	<updated>2012-02-05T07:37:16.251Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#photo' />
+	<title type='text'>Puppies FTW</title>
+	<summary type='text'>Puppies are the greatest.</summary>
+	<content type='image/png'
+		src='https://lh6.googleusercontent.com/-9txjxR87-4s/Ty4xqnI14XI/AAAAAAAAAHE/R3e7Kw3zV14/Puppies%252520FTW.png' />
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+		href='https://picasaweb.google.com/data/feed/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210?authkey=Gv1sRgCOP8o8W3p--M4gE' />
+	<link rel='alternate' type='text/html'
+		href='https://picasaweb.google.com/105985051804042965233/DropBox?authkey=Gv1sRgCOP8o8W3p--M4gE#5705552386055332210' />
+	<link rel='http://schemas.google.com/photos/2007#canonical' type='text/html'
+		href='https://picasaweb.google.com/lh/photo/9KSuznqLsUbGsVv1MvzmMlaPNT4LI6C3C1G4nLZZ8Lk' />
+	<link rel='self' type='application/atom+xml'
+		href='https://picasaweb.google.com/data/entry/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210?authkey=Gv1sRgCOP8o8W3p--M4gE' />
+	<link rel='edit' type='application/atom+xml'
+		href='https://picasaweb.google.com/data/entry/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210/2?tok=QUI1UGxRWUlTRkpsOVAtYTRMWUJLSU0xc0w5NDRfR015QToxMzI4NDI3NDY1OTgw&amp;authkey=Gv1sRgCOP8o8W3p--M4gE' />
+	<link rel='edit-media' type='image/jpeg'
+		href='https://picasaweb.google.com/data/media/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210/2?tok=QUI1UGxRWVI1WFg3WU10eVhMMUNFd3NIYkc3d0hCNDUwZzoxMzI4NDI3NDY1OTgw&amp;authkey=Gv1sRgCOP8o8W3p--M4gE' />
+	<link rel='media-edit' type='image/jpeg'
+		href='https://picasaweb.google.com/data/media/api/user/105985051804042965233/albumid/5705550012753965009/photoid/5705552386055332210/2?tok=QUI1UGxRWVI1WFg3WU10eVhMMUNFd3NIYkc3d0hCNDUwZzoxMzI4NDI3NDY1OTgw&amp;authkey=Gv1sRgCOP8o8W3p--M4gE' />
+	<link rel='http://schemas.google.com/photos/2007#report' type='text/html'
+		href='https://picasaweb.google.com/lh/reportAbuse?uname=105985051804042965233&amp;aid=5705550012753965009&amp;iid=5705552386055332210' />
+	<gphoto:id>5705552386055332210</gphoto:id>
+	<gphoto:version>2</gphoto:version>
+	<gphoto:albumid>5705550012753965009</gphoto:albumid>
+	<gphoto:access>private</gphoto:access>
+	<gphoto:width>128</gphoto:width>
+	<gphoto:height>128</gphoto:height>
+	<gphoto:size>14828</gphoto:size>
+	<gphoto:client>myClientName</gphoto:client>
+	<gphoto:checksum />
+	<gphoto:timestamp>1328427434000</gphoto:timestamp>
+	<gphoto:imageVersion>113</gphoto:imageVersion>
+	<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+	<gphoto:commentCount>0</gphoto:commentCount>
+	<gphoto:license id='0' name='著作権をすべて留保する' url=''>ALL_RIGHTS_RESERVED</gphoto:license>
+	<exif:tags>
+		<exif:imageUniqueID>7de409c874b0996e3fc365f530da57c1</exif:imageUniqueID>
+	</exif:tags>
+	<media:group>
+		<media:content
+			url='https://lh6.googleusercontent.com/-9txjxR87-4s/Ty4xqnI14XI/AAAAAAAAAHE/R3e7Kw3zV14/Puppies%252520FTW.png'
+			height='128' width='128' type='image/png' medium='image' />
+		<media:credit>Takeshi Kondo</media:credit>
+		<media:description type='plain'>Puppies are the greatest.</media:description>
+		<media:keywords />
+		<media:thumbnail
+			url='https://lh6.googleusercontent.com/-9txjxR87-4s/Ty4xqnI14XI/AAAAAAAAAHE/R3e7Kw3zV14/s72/Puppies%252520FTW.png'
+			height='72' width='72' />
+		<media:thumbnail
+			url='https://lh6.googleusercontent.com/-9txjxR87-4s/Ty4xqnI14XI/AAAAAAAAAHE/R3e7Kw3zV14/s144/Puppies%252520FTW.png'
+			height='128' width='128' />
+		<media:thumbnail
+			url='https://lh6.googleusercontent.com/-9txjxR87-4s/Ty4xqnI14XI/AAAAAAAAAHE/R3e7Kw3zV14/s288/Puppies%252520FTW.png'
+			height='128' width='128' />
+		<media:title type='plain'>Puppies FTW</media:title>
+	</media:group>
+</entry>

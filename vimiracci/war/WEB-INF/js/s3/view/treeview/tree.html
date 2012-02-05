@@ -1,0 +1,17 @@
+<ul class="filetree">
+	{{#if ContentsList.length == 0}}
+		<li>This bucket is empty.</li>
+	{{/if}}
+	{{#each ContentsList}}
+	
+	{{#if folder }}
+	<li class="closed folderItem" prefix="{{=Prefix}}">
+		<span class="folder" prefix="{{=Prefix}}">{{=name()}}</span>
+		<ul class="dummyFolder">
+			<li><span>-</span>
+		</ul>
+	</li>
+	{{else}}
+	{{/if}}
+	{{/each}}
+</ul>

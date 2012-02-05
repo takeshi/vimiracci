@@ -15,7 +15,7 @@
 
 	<mvc:annotation-driven />
 	<mvc:resources location="/, classpath:/META-INF/web-resources/"
-	mapping="/resources/**" />
+		mapping="/resources/**" />
 
 	<mvc:default-servlet-handler />
 
@@ -26,8 +26,7 @@
 		p:defaultErrorView="uncaughtException">
 	</bean>
 
-	<bean
-		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
-		id="multipartResolver" />
+	<bean class="ex.fileupload.spring.GMultipartResolver" id="multipartResolver">
+	</bean>
 
 </beans>
